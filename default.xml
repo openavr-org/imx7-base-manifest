@@ -20,13 +20,13 @@ group are not automatically downloaded by repo.
     <project name="openembedded-core"        remote="oe"         groups="src"  path="src/oe-core" />
     <project name="fsl-community-bsp-base"   remote="freescale"  groups="src"  path="src/fsl-community-bsp-base" />
 
-    <project name="poky"                     remote="yocto"      groups="oe"  revision="pyro"  path="oe/poky" />
-    <project name="meta-openembedded"        remote="oe"         groups="oe"  revision="pyro"  path="oe/meta-oe" />
-    <project name="meta-freescale"           remote="yocto"      groups="oe"  revision="pyro"  path="oe/meta-freescale" />
-    <project name="meta-freescale-3rdparty"  remote="freescale"  groups="oe"  revision="pyro"  path="oe/meta-freescale-3rdparty" />
-    <project name="meta-freescale-distro"    remote="freescale"  groups="oe"  revision="pyro"  path="oe/meta-freescale-distro" />
+    <project name="poky"                     remote="yocto"      groups="oe"  revision="rocko"  path="oe/poky" />
+    <project name="meta-openembedded"        remote="oe"         groups="oe"  revision="rocko"  path="oe/meta-oe" />
+    <project name="meta-freescale"           remote="yocto"      groups="oe"  revision="rocko"  path="oe/meta-freescale" />
+    <project name="meta-freescale-3rdparty"  remote="freescale"  groups="oe"  revision="rocko"  path="oe/meta-freescale-3rdparty" />
+    <project name="meta-freescale-distro"    remote="freescale"  groups="oe"  revision="rocko"  path="oe/meta-freescale-distro" />
 
-    <project name="meta-openavr-imx"         remote="openavr"    groups="oe"  revision="pyro"  path="oe/meta-openavr-imx" >
+    <project name="meta-openavr-imx"         remote="openavr"    groups="oe"  revision="rocko"  path="oe/meta-openavr-imx" >
         <linkfile dest="README.rst" src="scripts/README.rst"/>
         <linkfile dest="setup-env" src="scripts/setup-env"/>
     </project>
