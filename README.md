@@ -32,7 +32,7 @@ Getting Started
 
     Tell Repo where to find the manifest:
 
-        $ repo init -u ssh://git@github.com/openavr-org/imx7-base-manifest
+        $ repo init -u git://github.com/openavr-org/imx7-base-manifest
 
     A successful initialization will end with a message stating that Repo is
     initialized in your working directory. Your client directory should now
